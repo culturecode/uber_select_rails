@@ -3,6 +3,8 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'uber_select_rails/version'
 
+`git submodule update` # Ensure we've checked the correct submodule files
+
 Gem::Specification.new do |spec|
   spec.name          = "uber_select_rails"
   spec.version       = UberSelectRails::VERSION
