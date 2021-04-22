@@ -1,3 +1,3 @@
 module UberSelectRails
-  VERSION = "0.4.2.repackage"
+  VERSION = "0.4.3"
 end
