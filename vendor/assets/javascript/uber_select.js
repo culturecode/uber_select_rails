@@ -1,1 +1,1 @@
-//= require_tree ./uber_select/javascript
+//= require_directory ./uber_select/javascript
